@@ -1,0 +1,47 @@
+# Core numeric / ML
+numpy==1.26.4
+scipy==1.14.0
+opencv-python==4.8.0.74
+torch==2.3.0
+torchvision==0.18.0
+torchaudio==2.3.0
+tensorboard==2.18.0
+torchmetrics
+pytorch-lightning
+fvcore
+xformers
+ultralytics==8.3.61
+
+# Hydra / config management
+omegaconf
+ruamel.yaml
+hydra-core
+hydra-colorlog
+
+# Data & IO
+pandas
+gdown
+imageio
+
+# 3D / geometry
+pyrender==0.1.45
+pyglet==2.1.1
+trimesh==4.5.3
+
+# Training tools
+timm
+gorilla-core
+gpustat
+imgaug
+einops
+pycocotools
+
+# Visualization / augmentation
+matplotlib==3.10.0
+Pillow==10.2.0
+
+# Tools
+tqdm==4.67.1
+
+# Jupyter (optional)
+jupyter

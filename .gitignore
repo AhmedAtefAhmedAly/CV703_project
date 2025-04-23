@@ -4,7 +4,10 @@ __pycache__/
 */logs/
 PoseNet/PoseNet/*
 
-# SAM-6D/SAM-6D/Render/Data/IPD/*
+SAM-6D/SAM-6D/Render/Data/IPD/
+
+
+
 SAM-6D/SAM-6D/Instance_Segmentation_Model/checkpoints*
 PoseNet/models/*
 PoseNet/bpc/pose/pose_checkpoints/*
