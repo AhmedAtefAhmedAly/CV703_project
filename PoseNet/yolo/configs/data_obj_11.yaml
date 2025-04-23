@@ -1,0 +1,4 @@
+train: /l/users/bahey.tharwat/bpc_baseline/datasets/yolo11/train_obj_11/images
+val: /l/users/bahey.tharwat/bpc_baseline/datasets/yolo11/train_obj_11/images
+nc: 1
+names: ['object_11']
