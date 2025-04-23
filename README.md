@@ -10,5 +10,3 @@ This project tackles the challenge of accurate 6-DoF object pose estimation in c
 - A DoLP-based image preprocessing pipeline to improve segmentation quality in SAM-6D.
 - A multi-view spatial fusion step to improve pose accuracy and reduce false positives.
 
-
->>>>>>> 38c896b8a58c3291ffe6fa9fde442b64a6899a73
