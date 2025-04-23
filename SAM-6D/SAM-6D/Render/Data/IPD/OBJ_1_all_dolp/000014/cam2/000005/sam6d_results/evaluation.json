@@ -1,0 +1,25 @@
+{
+  "counts": {
+    "total_gt": 0,
+    "matched": 0,
+    "missed": 0,
+    "extras": 0
+  },
+  "recall": null,
+  "precision": null,
+  "rotation_deg": {
+    "mean": null,
+    "median": null,
+    "all": []
+  },
+  "translation": {
+    "mean": null,
+    "median": null,
+    "all": []
+  },
+  "MSSD": {
+    "mean": null,
+    "median": null,
+    "all": []
+  }
+}
