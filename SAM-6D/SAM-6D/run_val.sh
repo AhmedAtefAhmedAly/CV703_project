@@ -5,7 +5,7 @@ set -uo pipefail
 ##############################################################################
 VAL_DIR="/l/users/ahmed.aly/ipd/val"
 MODEL_ROOT="/l/users/ahmed.aly/ipd/models_eval"
-OUTPUT_BASE="/home/ahmed.aly/Projects/Bin-Picking/bpc_baseline/SAM-6D/SAM-6D/Render/Data/IPD"
+OUTPUT_BASE="/home/ahmed.aly/Projects/Bin-Picking/bpc_baseline/SAM-6D/SAM-6D/Render/Data/IPD" ###directory of your output folder could be downloaded from github
 TEMPLATE_BASE="/home/ahmed.aly/Projects/Bin-Picking/bpc_baseline/SAM-6D"
 SEGMENTOR_MODEL="sam"
 CAM_IDS=(cam1 cam2 cam3)

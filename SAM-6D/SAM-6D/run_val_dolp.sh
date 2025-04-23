@@ -15,7 +15,7 @@ for OBJ_ID in "${OBJ_IDS[@]}"; do
   # zero‑pad to 6 digits (e.g. 000014)
   PADDED=$(printf "%06d" "${OBJ_ID}")
   CAD_MODEL="${MODEL_ROOT}/obj_${PADDED}.ply"
-  OUTPUT_ROOT="/home/ahmed.aly/Projects/Bin-Picking/bpc_baseline/SAM-6D/SAM-6D/Render/Data/IPD/OBJ_${OBJ_ID}_all_dolppt"
+  OUTPUT_ROOT="/home/ahmed.aly/Projects/Bin-Picking/bpc_baseline/SAM-6D/SAM-6D/Render/Data/IPD/OBJ_${OBJ_ID}_all_dolp"
   GLOBAL_TEMPLATE_DIR="/home/ahmed.aly/Projects/Bin-Picking/bpc_baseline/SAM-6D/sam6d_templates_dolppt_obj${OBJ_ID}"
 
   echo "▶▶▶ Processing OBJ ${OBJ_ID} (model: ${CAD_MODEL})"
@@ -25,9 +25,9 @@ for OBJ_ID in "${OBJ_IDS[@]}"; do
   if ! compgen -G "$GLOBAL_TEMPLATE_DIR/templates/rgb_*.png" >/dev/null; then
     echo "    Rendering templates once → $GLOBAL_TEMPLATE_DIR"
     pushd "$SCRIPT_DIR/Render" >/dev/null
-      blenderproc run render_custom_templates.py \
+      blenderproc run render_custom.py \
         --output_dir "$GLOBAL_TEMPLATE_DIR" \
-        --cad_path   "$CAD_MODEL" 
+        --cad_path   "$CAD_MODEL" --colorize
     popd >/dev/null
   fi
 

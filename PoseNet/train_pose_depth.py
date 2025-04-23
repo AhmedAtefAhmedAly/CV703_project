@@ -155,12 +155,14 @@ if __name__ == "__main__":
     main()
 
 """
-python train_pose_depth.py \
+python3 train_pose_depth.py \
   --root_dir /l/users/ahmed.aly/ipd \
-  --target_obj_id 0 \
+  --target_obj_id 14 \
   --epochs 10 \
   --batch_size 32 \
-  --lr 1e-3 \
-  --num_workers 8 \
-  --checkpoints_dir bpc/pose/pose_checkpoints/depth
+  --lr 5e-4 \
+  --num_workers 16 \
+  --checkpoints_dir bpc/pose/pose_checkpoints/depth/ \
+  --loss_type quat \
+  --use_real_val
 """
