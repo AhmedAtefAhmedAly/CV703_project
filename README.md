@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # Perception for pin-picking
 
 Multi-modal 6DoF pose estimation for industrial bin-picking using RGB, depth, and polarization with SAM-6D and SimplePoseNet
