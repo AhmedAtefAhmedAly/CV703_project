@@ -1,0 +1,10 @@
+# ninja log v5
+1	653860	1744285279181347374	/home/ahmed.aly/Projects/Bin-Picking/bpc_baseline/SAM-6D/SAM-6D/Pose_Estimation_Model/model/pointnet2/build/temp.linux-x86_64-cpython-39/_ext_src/src/ball_query.o	c63f4ba2bcb62ad8
+3	654422	1744285279741350661	/home/ahmed.aly/Projects/Bin-Picking/bpc_baseline/SAM-6D/SAM-6D/Pose_Estimation_Model/model/pointnet2/build/temp.linux-x86_64-cpython-39/_ext_src/src/interpolate.o	15f26139c73f9c09
+2	656756	1744285282081364397	/home/ahmed.aly/Projects/Bin-Picking/bpc_baseline/SAM-6D/SAM-6D/Pose_Estimation_Model/model/pointnet2/build/temp.linux-x86_64-cpython-39/_ext_src/src/bindings.o	e44f68815396c42f
+2	657303	1744285282631367626	/home/ahmed.aly/Projects/Bin-Picking/bpc_baseline/SAM-6D/SAM-6D/Pose_Estimation_Model/model/pointnet2/build/temp.linux-x86_64-cpython-39/_ext_src/src/group_points.o	940e7c7ee99c6dca
+2	657321	1744285282641367684	/home/ahmed.aly/Projects/Bin-Picking/bpc_baseline/SAM-6D/SAM-6D/Pose_Estimation_Model/model/pointnet2/build/temp.linux-x86_64-cpython-39/_ext_src/src/sampling.o	df99a3526ce1233b
+4	658552	1744285283871374904	/home/ahmed.aly/Projects/Bin-Picking/bpc_baseline/SAM-6D/SAM-6D/Pose_Estimation_Model/model/pointnet2/build/temp.linux-x86_64-cpython-39/_ext_src/src/interpolate_gpu.o	db3188e45655c401
+3	658586	1744285283871374904	/home/ahmed.aly/Projects/Bin-Picking/bpc_baseline/SAM-6D/SAM-6D/Pose_Estimation_Model/model/pointnet2/build/temp.linux-x86_64-cpython-39/_ext_src/src/group_points_gpu.o	6d70d0c4d2bc1a2f
+2	658681	1744285283991375608	/home/ahmed.aly/Projects/Bin-Picking/bpc_baseline/SAM-6D/SAM-6D/Pose_Estimation_Model/model/pointnet2/build/temp.linux-x86_64-cpython-39/_ext_src/src/ball_query_gpu.o	d1724456aa5924a4
+4	658725	1744285284041375902	/home/ahmed.aly/Projects/Bin-Picking/bpc_baseline/SAM-6D/SAM-6D/Pose_Estimation_Model/model/pointnet2/build/temp.linux-x86_64-cpython-39/_ext_src/src/sampling_gpu.o	79363ec5e7a72daa
